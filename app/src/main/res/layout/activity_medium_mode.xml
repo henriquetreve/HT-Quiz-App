@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mediummode"
+    tools:context=".levels.MediumModeActivity">
+
+
+    <TextView
+        android:id="@+id/total_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/total_questions"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/question"
+        app:layout_constraintEnd_toEndOf="@+id/question"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/question"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="262dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/this_will_be_the_question"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ans_A"
+        app:layout_constraintEnd_toEndOf="@+id/ans_A"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="@+id/ans_A" />
+
+    <Button
+        android:id="@+id/ans_A"
+        android:layout_width="245dp"
+        android:layout_height="43sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/ans_a"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/ans_B"
+        app:layout_constraintEnd_toEndOf="@+id/ans_B"
+        app:layout_constraintStart_toStartOf="@+id/ans_B"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/ans_B"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/ans_b"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/ans_C"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/ans_c"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/ans_B"
+        app:layout_constraintStart_toStartOf="@+id/ans_B"
+        app:layout_constraintTop_toBottomOf="@+id/ans_B"
+        tools:targetApi="lollipop" />
+
+
+    <Button
+        android:id="@+id/ans_D"
+        android:layout_width="245dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/ans_d"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/ans_C"
+        app:layout_constraintStart_toStartOf="@+id/ans_C"
+        app:layout_constraintTop_toBottomOf="@+id/ans_C"
+        tools:targetApi="lollipop" />
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="165dp"
+        android:layout_height="71dp"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/submit"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ans_D"
+        app:layout_constraintStart_toStartOf="@+id/ans_D"
+        app:layout_constraintTop_toBottomOf="@+id/ans_D"
+        app:layout_constraintVertical_bias="0.261" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <string name="register_text">Click Here to Register!</string>
+    <string name="tv_alreadyLogin">if you already have account , click here</string>
+    <string name="play_quiz">Play Quiz</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="insert_your_email">Insert your email</string>
+    <string name="insert_your_password">Insert your password</string>
+    <string name="login">Login</string>
+    <string name="insert_your_name">Insert your name</string>
+    <string name="insert_your_gender">Insert your gender</string>
+    <string name="insert_your_phone">Insert your phone</string>
+    <string name="register">Register</string>
+    <string name="total_questions">Total Questions</string>
+    <string name="question">Question</string>
+    <string name="ans_a">Ans A</string>
+    <string name="ans_b">Ans B</string>
+    <string name="ans_c">Ans C</string>
+    <string name="ans_d">Ans D</string>
+    <string name="textview">TextView</string>
+    <string name="submit">Submit</string>
+    <string name="return_to_menu">Return to Menu</string>
+    <string name="restart">Restart</string>
+    <string name="your_score_0">Your Score: 0</string>
+    <string name="this_will_be_the_question">this_will_be_the_question</string>
+</resources>
